@@ -1,0 +1,6 @@
+Section: misc
+Priority: optional
+Standards-Version: 3.9.2
+Package: libappindicator1-dummy
+Provides: libappindicator1
+Description: libappindicator1 dummy package

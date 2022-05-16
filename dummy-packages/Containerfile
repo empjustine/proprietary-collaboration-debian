@@ -1,0 +1,14 @@
+# see https://hub.docker.com/_/debian
+# FROM docker.io/library/debian:11.3
+
+FROM docker.io/library/debian:bullseye-20220509
+
+RUN apt-get update && apt -y upgrade && apt-get -y install equivs
+
+COPY ./libappindicator1-dummy ./libappindicator3-1-dummy /root
+
+# tag_name='localhost/build-dummy-packages:latest'
+# podman image build . --tag "${tag_name}" ; container_id=$(podman container run -it --detach "${tag_name}") ; podman container exec -it "${container_id}" /bin/bash
+# cd /root/ ; equivs-build libappindicator1-dummy ; equivs-build libappindicator3-1-dummy ; tar -czf /tmp/target.tar.gz libappindicator*
+# podman cp "${container_id}:/tmp/target.tar.gz" target.tar ; mkdir -p target ; tar -xzf target.tar.gz target/
+

@@ -1,0 +1,25 @@
+Format: 1.8
+Date: Mon, 16 May 2022 03:55:00 +0000
+Source: libappindicator1-dummy
+Binary: libappindicator1-dummy
+Architecture: all
+Version: 1.0
+Distribution: unstable
+Urgency: low
+Maintainer: Equivs Dummy Package Generator <root@4aa9fb48dd12>
+Changed-By: Equivs Dummy Package Generator <root@4aa9fb48dd12>
+Description:
+ libappindicator1-dummy - libappindicator1 dummy package
+Changes:
+ libappindicator1-dummy (1.0) unstable; urgency=low
+ .
+   * First version
+Checksums-Sha1:
+ 6f62e9fc3c1a509682ee98ddb47cb6e24e9af23b 2164 libappindicator1-dummy_1.0_all.deb
+ 150f676d8c9aa6a8ecfcd6f1b2d808299170f48c 4704 libappindicator1-dummy_1.0_amd64.buildinfo
+Checksums-Sha256:
+ 227abd6f7b3208eb60be4058fcac6d5b11471a6a2ea6f5138b0d89734c5bfb4b 2164 libappindicator1-dummy_1.0_all.deb
+ 2af45ef2c297b32d68387348bb2a9835299df716694f79af19f2f141a93a1ae4 4704 libappindicator1-dummy_1.0_amd64.buildinfo
+Files:
+ ae38e870838bc7dd6975813f7c912827 2164 misc optional libappindicator1-dummy_1.0_all.deb
+ d90a453d1c4b3124c9f31bb8d23a030e 4704 misc optional libappindicator1-dummy_1.0_amd64.buildinfo
